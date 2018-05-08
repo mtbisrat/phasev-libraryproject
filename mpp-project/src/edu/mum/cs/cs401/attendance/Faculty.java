@@ -1,5 +1,7 @@
 package edu.mum.cs.cs401.attendance;
 
-public class Faculty {
+import java.util.List;
 
+public class Faculty {
+List<CourseOffering>courseOfferings;
 }

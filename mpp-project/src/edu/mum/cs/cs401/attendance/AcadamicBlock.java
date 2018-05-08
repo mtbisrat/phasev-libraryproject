@@ -1,6 +1,7 @@
 package edu.mum.cs.cs401.attendance;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class AcadamicBlock {
 	String id;
@@ -8,6 +9,6 @@ public class AcadamicBlock {
 	LocalDate startDate;
 	LocalDate endDate;
 	String semester;
-	
+	List<CourseOffering>alist;
 
 }

@@ -7,11 +7,7 @@ public class CourseOffering {
 	Course Id;
 	String blockId;
 	Faculty faculty;
-	String location;
 	List<Session> session;
-	List<Location> locations;
-	List<AcadamicBlock> acadamicBlock;
-	List<Faculty> faculties;
-	List<Course> course;
+	Location locations;
 
 }
